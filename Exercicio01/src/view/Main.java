@@ -12,7 +12,7 @@ public class Main {
 		
 		RedesController operacoes = new RedesController();
 		
-		int selecionado = (int) JOptionPane.showInputDialog(null, "Escolha um item: \n1- Chamada de config do IP\n2 - Calculo do tempo médio do PING:\n9- Encerrar programa", "Exercício 01", JOptionPane.INFORMATION_MESSAGE, null, opcoes, opcoes[0]);
+		int selecionado = (int) JOptionPane.showInputDialog(null, "Escolha um item: \n1- Chamada de config do IP\n2 - Calculo do tempo médio do PING\n9- Encerrar programa", "Exercício 01", JOptionPane.INFORMATION_MESSAGE, null, opcoes, opcoes[0]);
 		
 		switch(selecionado) {
 		
