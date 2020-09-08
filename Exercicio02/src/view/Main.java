@@ -16,13 +16,13 @@ public class Main {
 		
 		switch(selecionado) {
 		
-			case 1: metodos.listarMetodos(metodos.os());
+			case 1: metodos.listarMetodos(metodos.so());
 					break;
 			
-			case 2: metodos.metodoKillNome(metodos.os());
+			case 2: metodos.metodoKillNome(metodos.so());
 					break;
 			
-			case 3: metodos.metodoKillPid(metodos.os());
+			case 3: metodos.metodoKillPid(metodos.so());
 					break;
 			
 			case 9:	JOptionPane.showMessageDialog(null, "Programa finalizado");
